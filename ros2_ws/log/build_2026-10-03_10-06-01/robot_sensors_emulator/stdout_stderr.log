@@ -1,0 +1,19 @@
+running develop
+running egg_info
+writing robot_sensors_emulator.egg-info/PKG-INFO
+writing dependency_links to robot_sensors_emulator.egg-info/dependency_links.txt
+writing entry points to robot_sensors_emulator.egg-info/entry_points.txt
+writing requirements to robot_sensors_emulator.egg-info/requires.txt
+writing top-level names to robot_sensors_emulator.egg-info/top_level.txt
+reading manifest file 'robot_sensors_emulator.egg-info/SOURCES.txt'
+writing manifest file 'robot_sensors_emulator.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/simone/ros2_ws/install/robot_sensors_emulator/lib/python3.10/site-packages/robot-sensors-emulator.egg-link (link to .)
+Installing camera_publisher script to /home/simone/ros2_ws/install/robot_sensors_emulator/lib/robot_sensors_emulator
+Installing imu_odom_publisher script to /home/simone/ros2_ws/install/robot_sensors_emulator/lib/robot_sensors_emulator
+Installing proximity_publisher script to /home/simone/ros2_ws/install/robot_sensors_emulator/lib/robot_sensors_emulator
+
+Installed /home/simone/ros2_ws/build/robot_sensors_emulator
+running symlink_data
+creating /home/simone/ros2_ws/install/robot_sensors_emulator/share/robot_sensors_emulator/launch
+symbolically linking /home/simone/ros2_ws/build/robot_sensors_emulator/launch/sensors_launch.py -> /home/simone/ros2_ws/install/robot_sensors_emulator/share/robot_sensors_emulator/launch

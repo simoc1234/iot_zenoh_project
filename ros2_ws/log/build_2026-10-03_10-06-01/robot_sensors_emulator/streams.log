@@ -1,0 +1,21 @@
+[4.589s] Invoking command in '/home/simone/ros2_ws/build/robot_sensors_emulator': PYTHONPATH=/home/simone/ros2_ws/build/robot_sensors_emulator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simone/ros2_ws/install/robot_sensors_emulator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/simone/ros2_ws/build/robot_sensors_emulator/build --no-deps symlink_data
+[5.680s] running develop
+[6.407s] running egg_info
+[6.407s] writing robot_sensors_emulator.egg-info/PKG-INFO
+[6.408s] writing dependency_links to robot_sensors_emulator.egg-info/dependency_links.txt
+[6.412s] writing entry points to robot_sensors_emulator.egg-info/entry_points.txt
+[6.412s] writing requirements to robot_sensors_emulator.egg-info/requires.txt
+[6.418s] writing top-level names to robot_sensors_emulator.egg-info/top_level.txt
+[6.431s] reading manifest file 'robot_sensors_emulator.egg-info/SOURCES.txt'
+[6.475s] writing manifest file 'robot_sensors_emulator.egg-info/SOURCES.txt'
+[6.492s] running build_ext
+[6.493s] Creating /home/simone/ros2_ws/install/robot_sensors_emulator/lib/python3.10/site-packages/robot-sensors-emulator.egg-link (link to .)
+[6.494s] Installing camera_publisher script to /home/simone/ros2_ws/install/robot_sensors_emulator/lib/robot_sensors_emulator
+[6.497s] Installing imu_odom_publisher script to /home/simone/ros2_ws/install/robot_sensors_emulator/lib/robot_sensors_emulator
+[6.501s] Installing proximity_publisher script to /home/simone/ros2_ws/install/robot_sensors_emulator/lib/robot_sensors_emulator
+[6.503s] 
+[6.504s] Installed /home/simone/ros2_ws/build/robot_sensors_emulator
+[6.506s] running symlink_data
+[6.511s] creating /home/simone/ros2_ws/install/robot_sensors_emulator/share/robot_sensors_emulator/launch
+[6.513s] symbolically linking /home/simone/ros2_ws/build/robot_sensors_emulator/launch/sensors_launch.py -> /home/simone/ros2_ws/install/robot_sensors_emulator/share/robot_sensors_emulator/launch
+[6.620s] Invoked command in '/home/simone/ros2_ws/build/robot_sensors_emulator' returned '0': PYTHONPATH=/home/simone/ros2_ws/build/robot_sensors_emulator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simone/ros2_ws/install/robot_sensors_emulator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/simone/ros2_ws/build/robot_sensors_emulator/build --no-deps symlink_data

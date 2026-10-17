@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/robot_sensors_emulator/robot_sensors_emulator.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_sensors_emulator/robot_sensors_emulator.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_sensors_emulator/robot_sensors_emulator.egg-info/entry_points.txt
+writing requirements to ../../build/robot_sensors_emulator/robot_sensors_emulator.egg-info/requires.txt
+writing top-level names to ../../build/robot_sensors_emulator/robot_sensors_emulator.egg-info/top_level.txt
+reading manifest file '../../build/robot_sensors_emulator/robot_sensors_emulator.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_sensors_emulator/robot_sensors_emulator.egg-info/SOURCES.txt'
+running build
+running build_py
+copying robot_sensors_emulator/ricevitore_velocita.py -> /home/simone/ros2_ws/build/robot_sensors_emulator/build/lib/robot_sensors_emulator
+running install
+running install_lib
+copying /home/simone/ros2_ws/build/robot_sensors_emulator/build/lib/robot_sensors_emulator/ricevitore_velocita.py -> /home/simone/ros2_ws/install/robot_sensors_emulator/lib/python3.10/site-packages/robot_sensors_emulator
+byte-compiling /home/simone/ros2_ws/install/robot_sensors_emulator/lib/python3.10/site-packages/robot_sensors_emulator/ricevitore_velocita.py to ricevitore_velocita.cpython-310.pyc
+running install_data
+copying launch/sensors_launch.py -> /home/simone/ros2_ws/install/robot_sensors_emulator/share/robot_sensors_emulator/launch
+running install_egg_info
+removing '/home/simone/ros2_ws/install/robot_sensors_emulator/lib/python3.10/site-packages/robot_sensors_emulator-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/robot_sensors_emulator/robot_sensors_emulator.egg-info to /home/simone/ros2_ws/install/robot_sensors_emulator/lib/python3.10/site-packages/robot_sensors_emulator-0.0.0-py3.10.egg-info
+running install_scripts
+Installing camera_publisher script to /home/simone/ros2_ws/install/robot_sensors_emulator/lib/robot_sensors_emulator
+Installing imu_odom_publisher script to /home/simone/ros2_ws/install/robot_sensors_emulator/lib/robot_sensors_emulator
+Installing proximity_publisher script to /home/simone/ros2_ws/install/robot_sensors_emulator/lib/robot_sensors_emulator
+Installing ricevitore_velocita script to /home/simone/ros2_ws/install/robot_sensors_emulator/lib/robot_sensors_emulator
+writing list of installed files to '/home/simone/ros2_ws/build/robot_sensors_emulator/install.log'

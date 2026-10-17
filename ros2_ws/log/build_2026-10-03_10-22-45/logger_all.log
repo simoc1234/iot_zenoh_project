@@ -1,0 +1,133 @@
+[0.348s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-select', 'robot_sensors_emulator']
+[0.348s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['robot_sensors_emulator'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x79e1f1bd77c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x79e1f1bd6920>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x79e1f1bd6920>>)
+[0.884s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.885s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.885s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.885s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.885s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.885s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.885s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/simone/ros2_ws'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_sensors_emulator) by extensions ['ignore', 'ignore_ament_install']
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_sensors_emulator) by extension 'ignore'
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_sensors_emulator) by extension 'ignore_ament_install'
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_sensors_emulator) by extensions ['colcon_pkg']
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_sensors_emulator) by extension 'colcon_pkg'
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_sensors_emulator) by extensions ['colcon_meta']
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_sensors_emulator) by extension 'colcon_meta'
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_sensors_emulator) by extensions ['ros']
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_sensors_emulator) by extension 'ros'
+[0.938s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_sensors_emulator' with type 'ros.ament_python' and name 'robot_sensors_emulator'
+[0.938s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.938s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.938s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.938s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.938s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.001s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.001s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.006s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/simone/ros2_ws/install
+[1.009s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 273 installed packages in /opt/ros/humble
+[1.016s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.188s] Level 5:colcon.colcon_core.verb:set package 'robot_sensors_emulator' build argument 'cmake_args' from command line to 'None'
+[1.188s] Level 5:colcon.colcon_core.verb:set package 'robot_sensors_emulator' build argument 'cmake_target' from command line to 'None'
+[1.188s] Level 5:colcon.colcon_core.verb:set package 'robot_sensors_emulator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.188s] Level 5:colcon.colcon_core.verb:set package 'robot_sensors_emulator' build argument 'cmake_clean_cache' from command line to 'False'
+[1.188s] Level 5:colcon.colcon_core.verb:set package 'robot_sensors_emulator' build argument 'cmake_clean_first' from command line to 'False'
+[1.188s] Level 5:colcon.colcon_core.verb:set package 'robot_sensors_emulator' build argument 'cmake_force_configure' from command line to 'False'
+[1.188s] Level 5:colcon.colcon_core.verb:set package 'robot_sensors_emulator' build argument 'ament_cmake_args' from command line to 'None'
+[1.188s] Level 5:colcon.colcon_core.verb:set package 'robot_sensors_emulator' build argument 'catkin_cmake_args' from command line to 'None'
+[1.188s] Level 5:colcon.colcon_core.verb:set package 'robot_sensors_emulator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.188s] DEBUG:colcon.colcon_core.verb:Building package 'robot_sensors_emulator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/simone/ros2_ws/build/robot_sensors_emulator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/simone/ros2_ws/install/robot_sensors_emulator', 'merge_install': False, 'path': '/home/simone/ros2_ws/src/robot_sensors_emulator', 'symlink_install': True, 'test_result_base': None}
+[1.189s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.192s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.193s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/simone/ros2_ws/src/robot_sensors_emulator' with build type 'ament_python'
+[1.193s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_sensors_emulator', 'ament_prefix_path')
+[1.198s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simone/ros2_ws/install/robot_sensors_emulator/share/robot_sensors_emulator/hook/ament_prefix_path.ps1'
+[1.204s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simone/ros2_ws/install/robot_sensors_emulator/share/robot_sensors_emulator/hook/ament_prefix_path.dsv'
+[1.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simone/ros2_ws/install/robot_sensors_emulator/share/robot_sensors_emulator/hook/ament_prefix_path.sh'
+[1.210s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.210s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.018s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/simone/ros2_ws/src/robot_sensors_emulator'
+[2.019s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.019s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.029s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: dist_info, upload_docs, saveopts, build_clib, build_scripts, develop, sdist, bdist, build, upload, register, build_ext, install_egg_info, test, symlink_data, clean, bdist_egg, install, egg_info, bdist_rpm, alias, install_scripts, rotate, setopt, install_lib, easy_install, install_data, build_py, check, install_headers, bdist_dumb
+[3.860s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --index-url, --user, --allow-hosts, --quiet, --multi-version, --no-deps, --always-unzip, --no-user-cfg, --egg-path, --script-dir, --optimize, --install-dir, --version, --force-installation-into-system-dir, --prefix, --editable, --help, --record, --build-directory, --dry-run, --exclude-scripts, --zip-ok, --site-dirs, --no-find-links, --always-copy, --upgrade, --local-snapshots-ok, --uninstall, --verbose, --install-layout, --find-links
+[3.865s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/simone/ros2_ws/build/robot_sensors_emulator': PYTHONPATH=/home/simone/ros2_ws/build/robot_sensors_emulator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simone/ros2_ws/install/robot_sensors_emulator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/simone/ros2_ws/build/robot_sensors_emulator/build --no-deps symlink_data
+[5.225s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_sensors_emulator', 'pythonpath_develop')
+[5.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simone/ros2_ws/build/robot_sensors_emulator/share/robot_sensors_emulator/hook/pythonpath_develop.ps1'
+[5.228s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/simone/ros2_ws/build/robot_sensors_emulator' returned '0': PYTHONPATH=/home/simone/ros2_ws/build/robot_sensors_emulator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simone/ros2_ws/install/robot_sensors_emulator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/simone/ros2_ws/build/robot_sensors_emulator/build --no-deps symlink_data
+[5.229s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simone/ros2_ws/build/robot_sensors_emulator/share/robot_sensors_emulator/hook/pythonpath_develop.dsv'
+[5.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simone/ros2_ws/build/robot_sensors_emulator/share/robot_sensors_emulator/hook/pythonpath_develop.sh'
+[5.238s] Level 1:colcon.colcon_core.environment:checking '/home/simone/ros2_ws/install/robot_sensors_emulator' for CMake module files
+[5.239s] Level 1:colcon.colcon_core.environment:checking '/home/simone/ros2_ws/install/robot_sensors_emulator' for CMake config files
+[5.243s] Level 1:colcon.colcon_core.environment:checking '/home/simone/ros2_ws/install/robot_sensors_emulator/lib'
+[5.244s] Level 1:colcon.colcon_core.environment:checking '/home/simone/ros2_ws/install/robot_sensors_emulator/bin'
+[5.244s] Level 1:colcon.colcon_core.environment:checking '/home/simone/ros2_ws/install/robot_sensors_emulator/lib/pkgconfig/robot_sensors_emulator.pc'
+[5.244s] Level 1:colcon.colcon_core.environment:checking '/home/simone/ros2_ws/install/robot_sensors_emulator/lib/python3.10/site-packages'
+[5.244s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_sensors_emulator', 'pythonpath')
+[5.245s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simone/ros2_ws/install/robot_sensors_emulator/share/robot_sensors_emulator/hook/pythonpath.ps1'
+[5.247s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simone/ros2_ws/install/robot_sensors_emulator/share/robot_sensors_emulator/hook/pythonpath.dsv'
+[5.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simone/ros2_ws/install/robot_sensors_emulator/share/robot_sensors_emulator/hook/pythonpath.sh'
+[5.251s] Level 1:colcon.colcon_core.environment:checking '/home/simone/ros2_ws/install/robot_sensors_emulator/bin'
+[5.251s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_sensors_emulator)
+[5.252s] INFO:colcon.colcon_core.shell:Creating package script '/home/simone/ros2_ws/install/robot_sensors_emulator/share/robot_sensors_emulator/package.ps1'
+[5.256s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/simone/ros2_ws/install/robot_sensors_emulator/share/robot_sensors_emulator/package.dsv'
+[5.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/simone/ros2_ws/install/robot_sensors_emulator/share/robot_sensors_emulator/package.sh'
+[5.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/simone/ros2_ws/install/robot_sensors_emulator/share/robot_sensors_emulator/package.bash'
+[5.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/simone/ros2_ws/install/robot_sensors_emulator/share/robot_sensors_emulator/package.zsh'
+[5.267s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/simone/ros2_ws/install/robot_sensors_emulator/share/colcon-core/packages/robot_sensors_emulator)
+[5.269s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.270s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.270s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.270s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.289s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.289s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.290s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.351s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.352s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/simone/ros2_ws/install/local_setup.ps1'
+[5.358s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/simone/ros2_ws/install/_local_setup_util_ps1.py'
+[5.366s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/simone/ros2_ws/install/setup.ps1'
+[5.370s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/simone/ros2_ws/install/local_setup.sh'
+[5.372s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/simone/ros2_ws/install/_local_setup_util_sh.py'
+[5.375s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/simone/ros2_ws/install/setup.sh'
+[5.378s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/simone/ros2_ws/install/local_setup.bash'
+[5.381s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/simone/ros2_ws/install/setup.bash'
+[5.384s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/simone/ros2_ws/install/local_setup.zsh'
+[5.387s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/simone/ros2_ws/install/setup.zsh'

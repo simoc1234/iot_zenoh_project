@@ -1,0 +1,21 @@
+{
+  mode: "router",
+  listen: {
+    endpoints: ["tls/127.0.0.1:7447"]
+  },
+  transport: {
+    link: {
+      tls: {
+        root_ca_certificate: "/home/simone/iot_zenoh_project/zenoh_certs/ca.crt",
+        server_certificate: "/home/simone/iot_zenoh_project/zenoh_certs/server.crt",
+        server_private_key: "/home/simone/iot_zenoh_project/zenoh_certs/server.key",
+        client_auth: true
+      }
+    }
+  },
+  
+  plugins: {
+    ros2dds: {}
+  }
+}
+

@@ -1,0 +1,9 @@
+# Ambienti virtuali e cache Python
+zenoh011_env/
+venv/
+__pycache__/
+*.pyc
+
+# Ignora file temporanei
+*.swp
+.DS_Store

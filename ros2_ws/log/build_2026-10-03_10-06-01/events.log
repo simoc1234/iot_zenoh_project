@@ -1,0 +1,92 @@
+[0.000000] (-) TimerEvent: {}
+[0.008127] (robot_sensors_emulator) JobQueued: {'identifier': 'robot_sensors_emulator', 'dependencies': OrderedDict()}
+[0.008271] (robot_sensors_emulator) JobStarted: {'identifier': 'robot_sensors_emulator'}
+[0.102073] (-) TimerEvent: {}
+[0.204203] (-) TimerEvent: {}
+[0.305946] (-) TimerEvent: {}
+[0.407153] (-) TimerEvent: {}
+[0.511443] (-) TimerEvent: {}
+[0.614277] (-) TimerEvent: {}
+[0.715036] (-) TimerEvent: {}
+[0.818465] (-) TimerEvent: {}
+[0.921345] (-) TimerEvent: {}
+[1.022134] (-) TimerEvent: {}
+[1.125111] (-) TimerEvent: {}
+[1.227174] (-) TimerEvent: {}
+[1.330309] (-) TimerEvent: {}
+[1.431090] (-) TimerEvent: {}
+[1.532062] (-) TimerEvent: {}
+[1.634140] (-) TimerEvent: {}
+[1.741269] (-) TimerEvent: {}
+[1.847170] (-) TimerEvent: {}
+[1.963309] (-) TimerEvent: {}
+[2.065122] (-) TimerEvent: {}
+[2.169173] (-) TimerEvent: {}
+[2.270116] (-) TimerEvent: {}
+[2.370872] (-) TimerEvent: {}
+[2.471773] (-) TimerEvent: {}
+[2.573346] (-) TimerEvent: {}
+[2.676473] (-) TimerEvent: {}
+[2.780359] (-) TimerEvent: {}
+[2.881920] (-) TimerEvent: {}
+[2.984340] (-) TimerEvent: {}
+[3.085280] (-) TimerEvent: {}
+[3.188147] (-) TimerEvent: {}
+[3.290420] (-) TimerEvent: {}
+[3.393486] (-) TimerEvent: {}
+[3.495062] (-) TimerEvent: {}
+[3.595712] (-) TimerEvent: {}
+[3.701132] (-) TimerEvent: {}
+[3.803090] (-) TimerEvent: {}
+[3.908278] (-) TimerEvent: {}
+[4.012039] (-) TimerEvent: {}
+[4.112657] (-) TimerEvent: {}
+[4.215097] (-) TimerEvent: {}
+[4.315806] (-) TimerEvent: {}
+[4.419305] (-) TimerEvent: {}
+[4.521443] (-) TimerEvent: {}
+[4.593531] (robot_sensors_emulator) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/simone/ros2_ws/build/robot_sensors_emulator/build', '--no-deps', 'symlink_data'], 'cwd': '/home/simone/ros2_ws/build/robot_sensors_emulator', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'simone'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/simone'), ('OLDPWD', '/home/simone/ros2_ws/src/robot_sensors_emulator'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '1642'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/simone/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'simone'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'simone'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/simone-virtual-machine:@/tmp/.ICE-unix/1616,unix/simone-virtual-machine:/tmp/.ICE-unix/1616'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c062fe9d_2d2e_406b_bab7_76477781de18'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3KLZW3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/simone/ros2_ws/install/robot_sensors_emulator:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/simone/ros2_ws/build/robot_sensors_emulator'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/simone/ros2_ws/build/robot_sensors_emulator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simone/ros2_ws/install/robot_sensors_emulator/lib/python3.10/site-packages:/home/simone/ros2_ws/build/robot_sensors_emulator:/home/simone/ros2_ws/install/robot_sensors_emulator/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[4.621608] (-) TimerEvent: {}
+[4.723254] (-) TimerEvent: {}
+[4.826403] (-) TimerEvent: {}
+[4.931455] (-) TimerEvent: {}
+[5.033482] (-) TimerEvent: {}
+[5.138106] (-) TimerEvent: {}
+[5.238704] (-) TimerEvent: {}
+[5.341445] (-) TimerEvent: {}
+[5.442151] (-) TimerEvent: {}
+[5.544253] (-) TimerEvent: {}
+[5.646326] (-) TimerEvent: {}
+[5.687282] (robot_sensors_emulator) StdoutLine: {'line': b'running develop\n'}
+[5.748146] (-) TimerEvent: {}
+[5.848724] (-) TimerEvent: {}
+[5.949674] (-) TimerEvent: {}
+[6.053300] (-) TimerEvent: {}
+[6.155222] (-) TimerEvent: {}
+[6.257142] (-) TimerEvent: {}
+[6.366546] (-) TimerEvent: {}
+[6.414651] (robot_sensors_emulator) StdoutLine: {'line': b'running egg_info\n'}
+[6.415413] (robot_sensors_emulator) StdoutLine: {'line': b'writing robot_sensors_emulator.egg-info/PKG-INFO\n'}
+[6.415654] (robot_sensors_emulator) StdoutLine: {'line': b'writing dependency_links to robot_sensors_emulator.egg-info/dependency_links.txt\n'}
+[6.419763] (robot_sensors_emulator) StdoutLine: {'line': b'writing entry points to robot_sensors_emulator.egg-info/entry_points.txt\n'}
+[6.420356] (robot_sensors_emulator) StdoutLine: {'line': b'writing requirements to robot_sensors_emulator.egg-info/requires.txt\n'}
+[6.425813] (robot_sensors_emulator) StdoutLine: {'line': b'writing top-level names to robot_sensors_emulator.egg-info/top_level.txt\n'}
+[6.438584] (robot_sensors_emulator) StdoutLine: {'line': b"reading manifest file 'robot_sensors_emulator.egg-info/SOURCES.txt'\n"}
+[6.467421] (-) TimerEvent: {}
+[6.482339] (robot_sensors_emulator) StdoutLine: {'line': b"writing manifest file 'robot_sensors_emulator.egg-info/SOURCES.txt'\n"}
+[6.492181] (robot_sensors_emulator) StdoutLine: {'line': b'running build_ext\n'}
+[6.501240] (robot_sensors_emulator) StdoutLine: {'line': b'Creating /home/simone/ros2_ws/install/robot_sensors_emulator/lib/python3.10/site-packages/robot-sensors-emulator.egg-link (link to .)\n'}
+[6.501813] (robot_sensors_emulator) StdoutLine: {'line': b'Installing camera_publisher script to /home/simone/ros2_ws/install/robot_sensors_emulator/lib/robot_sensors_emulator\n'}
+[6.505445] (robot_sensors_emulator) StdoutLine: {'line': b'Installing imu_odom_publisher script to /home/simone/ros2_ws/install/robot_sensors_emulator/lib/robot_sensors_emulator\n'}
+[6.508760] (robot_sensors_emulator) StdoutLine: {'line': b'Installing proximity_publisher script to /home/simone/ros2_ws/install/robot_sensors_emulator/lib/robot_sensors_emulator\n'}
+[6.510742] (robot_sensors_emulator) StdoutLine: {'line': b'\n'}
+[6.512208] (robot_sensors_emulator) StdoutLine: {'line': b'Installed /home/simone/ros2_ws/build/robot_sensors_emulator\n'}
+[6.514470] (robot_sensors_emulator) StdoutLine: {'line': b'running symlink_data\n'}
+[6.519202] (robot_sensors_emulator) StdoutLine: {'line': b'creating /home/simone/ros2_ws/install/robot_sensors_emulator/share/robot_sensors_emulator/launch\n'}
+[6.520655] (robot_sensors_emulator) StdoutLine: {'line': b'symbolically linking /home/simone/ros2_ws/build/robot_sensors_emulator/launch/sensors_launch.py -> /home/simone/ros2_ws/install/robot_sensors_emulator/share/robot_sensors_emulator/launch\n'}
+[6.570301] (-) TimerEvent: {}
+[6.627320] (robot_sensors_emulator) CommandEnded: {'returncode': 0}
+[6.670505] (-) TimerEvent: {}
+[6.772423] (-) TimerEvent: {}
+[6.785539] (robot_sensors_emulator) JobEnded: {'identifier': 'robot_sensors_emulator', 'rc': 0}
+[6.792285] (-) EventReactorShutdown: {}

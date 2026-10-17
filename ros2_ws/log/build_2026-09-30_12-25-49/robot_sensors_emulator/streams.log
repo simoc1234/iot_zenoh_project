@@ -1,0 +1,17 @@
+[1.984s] Invoking command in '/home/simone/ros2_ws/build/robot_sensors_emulator': PYTHONPATH=/home/simone/ros2_ws/build/robot_sensors_emulator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simone/ros2_ws/install/robot_sensors_emulator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/simone/ros2_ws/build/robot_sensors_emulator/build --no-deps symlink_data
+[2.905s] running develop
+[3.344s] running egg_info
+[3.344s] writing robot_sensors_emulator.egg-info/PKG-INFO
+[3.347s] writing dependency_links to robot_sensors_emulator.egg-info/dependency_links.txt
+[3.348s] writing entry points to robot_sensors_emulator.egg-info/entry_points.txt
+[3.349s] writing requirements to robot_sensors_emulator.egg-info/requires.txt
+[3.350s] writing top-level names to robot_sensors_emulator.egg-info/top_level.txt
+[3.356s] reading manifest file 'robot_sensors_emulator.egg-info/SOURCES.txt'
+[3.358s] writing manifest file 'robot_sensors_emulator.egg-info/SOURCES.txt'
+[3.363s] running build_ext
+[3.363s] Creating /home/simone/ros2_ws/install/robot_sensors_emulator/lib/python3.10/site-packages/robot-sensors-emulator.egg-link (link to .)
+[3.372s] Installing imu_odom_publisher script to /home/simone/ros2_ws/install/robot_sensors_emulator/lib/robot_sensors_emulator
+[3.372s] 
+[3.372s] Installed /home/simone/ros2_ws/build/robot_sensors_emulator
+[3.372s] running symlink_data
+[3.468s] Invoked command in '/home/simone/ros2_ws/build/robot_sensors_emulator' returned '0': PYTHONPATH=/home/simone/ros2_ws/build/robot_sensors_emulator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simone/ros2_ws/install/robot_sensors_emulator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/simone/ros2_ws/build/robot_sensors_emulator/build --no-deps symlink_data
