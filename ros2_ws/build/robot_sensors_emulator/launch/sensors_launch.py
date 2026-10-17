@@ -1,1 +1,0 @@
-/home/simone/ros2_ws/src/robot_sensors_emulator/launch/sensors_launch.py

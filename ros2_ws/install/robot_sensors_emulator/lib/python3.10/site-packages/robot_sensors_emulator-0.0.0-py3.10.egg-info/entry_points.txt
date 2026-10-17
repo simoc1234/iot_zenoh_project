@@ -1,6 +1,0 @@
-[console_scripts]
-camera_publisher = robot_sensors_emulator.camera_publisher:main
-imu_odom_publisher = robot_sensors_emulator.imu_odom_publisher:main
-proximity_publisher = robot_sensors_emulator.proximity_publisher:main
-ricevitore_velocita = robot_sensors_emulator.ricevitore_velocita:main
-
